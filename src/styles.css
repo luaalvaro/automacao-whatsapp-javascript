@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 22px;
+}
+
+.form-control input {
+  height: 40px;
+  padding: 0 10px;
+}
+
+.form-control textarea {
+  padding: 10px;
+}
+
+.form-control button {
+  height: 40px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
